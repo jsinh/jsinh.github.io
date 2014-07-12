@@ -1,0 +1,57 @@
+/*****************************
+	HTML
+*****************************/
+html {
+    max-height: 100%;
+}
+
+/*****************************
+	BODY
+*****************************/
+body {
+	height: 100%;
+	background-color: #FCFCFC;
+}
+
+/*****************************
+	ID Based Styles
+*****************************/
+#wrapper {
+	width: 800px;
+    height: 400px;
+
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+
+    margin: auto;
+}
+
+#top {
+    width:100%;
+    text-align: right;
+}
+
+#name {
+	font-family: 'Merienda', cursive;
+	width: 100%;
+	font-weight: bold;
+	font-size: 3.3em;
+	margin-right: 0.5em;
+	text-shadow: 1.5px 1.5px #666666;
+}
+
+#sub-text {
+	font-family: 'Nunito', sans-serif;
+	width:100%;
+	font-weight: normal;
+	font-size: 1.2em;
+	margin-right: 0.5em;
+}
+
+/*font-family: 'Quicksand', sans-serif;
+
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;*/
