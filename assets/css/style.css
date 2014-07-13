@@ -24,7 +24,7 @@ a {
 	ID Based Styles
 *****************************/
 #wrapper {
-	max-width: 800px;
+	width: 800px;
     height: 400px;
 
     position: absolute;
