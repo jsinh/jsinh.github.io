@@ -11,11 +11,13 @@
 
     $(window).load(function(){
 
-        $('#name').addClass('animated bounceInLeft');
+        $('#name').show().addClass('animated bounceInLeft');
 
-        $('#sub-text').addClass('animated fadeInUp');
+        $('#sub-text').show().addClass('animated fadeInUp');
 
-        $('#social-fa').addClass('animated bounceInRight');
+        $('#social-fa').show().addClass('animated bounceInRight');
+
+        $(document).prop('title', 'Jaspalsinh Chauhan | Jsinh');
     });
 
 }(jQuery));
