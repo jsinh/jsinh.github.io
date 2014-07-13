@@ -17,13 +17,14 @@ body {
 a {
 	color: #555555;
 	margin: 4px;
+	text-decoration: none;
 }
 
 /*****************************
 	ID Based Styles
 *****************************/
 #wrapper {
-	width: 800px;
+	max-width: 800px;
     height: 400px;
 
     position: absolute;
@@ -41,7 +42,24 @@ a {
 }
 
 #social-fa {
+	width:100%;
 	margin-top: 20px;
+}
+
+#menu {
+	width:100%;
+	margin-top: 30px;
+}
+
+ul {
+	list-style:  none;
+}
+
+li {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2.5em;
 }
 
 #name {
