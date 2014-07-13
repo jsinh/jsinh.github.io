@@ -17,6 +17,8 @@
 
         $('#social-fa').show().addClass('animated bounceInRight');
 
+        $('#menu').show().addClass('animated fadeIn');
+        
         $(document).prop('title', 'Jaspalsinh Chauhan | Jsinh');
     });
 
