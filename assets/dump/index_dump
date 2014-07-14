@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Encoding used -->
+        <meta charset="utf-8" />
+        <!-- IE version's standard fix -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+        <!-- Page title -->
+        <title>Jaspalsinh Chauhan | Jsinh</title>
+        <!-- Page description -->
+        <meta name="description" content="Home of Jaspalsinh Chauhan | Jsinh | Jachauhan" />
+
+        <!-- Responsive UI design meta -->
+        <meta name="HandheldFriendly" content="True" />
+        <!-- Responsive UI mobile optimized -->
+        <meta name="MobileOptimized" content="320" />
+        <!-- Responsive UI viewport fix -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Google fonts import - Open Sans -->
+        <link href='http://fonts.googleapis.com/css?family=Quicksand|Merienda:700|Nunito|Open+Sans:400,600' rel='stylesheet' type='text/css' />
+
+        <!-- Normalize First -->
+        <link rel="stylesheet" type="text/css" href="assets/css/normalize.css" />
+        <!-- Site wide styles -->
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <!-- FontAwesome fonts / icons integration -->
+        <link href="assets/css/font-awesome.min.css" rel="stylesheet">
+        <!-- Animate integration -->
+        <link href="assets/css/animate.min.css" rel="stylesheet">
+        <!--[if (lt IE 9)&(!IEMobile)]>
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+        <![endif]-->
+
+        <link rel="icon" href="favicon.ico" type="image/x-icon" />
+        <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    </head>
+    <body>
+    	<div id="wrapper">
+	    	<div id="top">
+	    		<div id="name">Jaspalsinh Chauhan</div>
+	    		<div id="sub-text">Cracking code and comment to compile life !!</div>
+                <div id="social-fa">
+                    <ul>
+                        <li class="altmenu">
+                            <a href="http://blog.jsinh.in" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-pencil"></i>
+                                <span class="li-text"> Nerd blogging /&gt;</span>
+                            </a>
+                        </li>
+                        <li class="altmenu">
+                            <a href="assets/cv/CurriculumVitae-JaspalsinhChauhan-v1.0.pdf" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-file-pdf-o"></i>
+                                <span class="li-text"> Work details /&gt;</span>
+                            </a>
+                        </li>
+                        <li class="altmenu">
+                            <a href="http://about.me/jsinh" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-user"></i>
+                                <span class="li-text"> About me /&gt;</span>
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="mailto:jachauhan@gmail.com" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-envelope"></i>
+                                <span class="li-text"> Reach me by mail /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/jsinh" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-github"></i>
+                                <span class="li-text"> Socially coding /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://stackoverflow.com/users/376196/jsinh" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-stack-overflow"></i>
+                                <span class="li-text"> Community interaction /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://in.linkedin.com/in/jsinh" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-linkedin"></i>
+                                <span class="li-text"> Professional me /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.gittip.com/jsinh/" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-gittip"></i>
+                                <span class="li-text"> Buy me some beer /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/jcdotlife" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-twitter"></i>
+                                <span class="li-text"> 150 character or less /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.facebook.com/Jsinh" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-facebook"></i>
+                                <span class="li-text"> Like like like /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="skype:jachauhan?chat" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-skype"></i>
+                                <span class="li-text"> Lets talk /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://plus.google.com/u/0/+JaspalsinhChauhanthisdotlife" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-google-plus"></i>
+                                <span class="li-text"> Plus or something /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://instagram.com/jachauhan/" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-instagram"></i>
+                                <span class="li-text"> Snapity snap /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://foursquare.com/jcdotlife" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-foursquare"></i>
+                                <span class="li-text"> For stalkers /&gt;</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://life.jsinh.in/" target="_blank">
+                                <span class="li-text">&lt;</span>
+                                <i class="fa fa-tumblr"></i>
+                                <span class="li-text"> No geeky stuffs, I swear /&gt;</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div id="menu">
+                    <ul>
+                        <li><a href="http://blog.jsinh.in" target="_blank">Blog&nbsp;&nbsp;<i class="fa fa-pencil"></i></a></li>
+                        <li><a href="assets/cv/CurriculumVitae-JaspalsinhChauhan-v1.0.pdf" target="_blank">Work&nbsp;&nbsp;<i class="fa fa-file-pdf-o"></i></a></li>
+                        <li><a href="http://about.me/jsinh" target="_blank">About&nbsp;&nbsp;<i class="fa fa-user"></i></a></li>
+                    </ul>
+                </div>
+	    	</div>
+	    	<div></div>
+	    </div>
+        <script src="assets/js/jquery-2.1.1.min.js"></script>
+        <script src="assets/js/index.js"></script>
+    </body>
+</html>

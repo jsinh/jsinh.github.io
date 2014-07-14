@@ -1,0 +1,61 @@
+#social-fa {
+	display: none;
+	width:100%;
+	margin-top: 20px;
+}
+
+#social-fa ul {
+	list-style:  none;
+}
+
+#social-fa li:not(.altmenu) {
+	display: inline;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 1.8em;
+}
+
+li.altmenu {
+	display: none;
+}
+
+.li-text {
+	display:none !important;
+}
+
+#menu {
+	display: none;
+	width:100%;
+	margin-top: 30px;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#menu ul {
+	list-style:  none;
+}
+
+#menu li {
+	display: block;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 2.5em;
+}
+
+#name {
+	display: none;
+	font-family: 'Merienda', cursive;
+	width: 100%;
+	font-weight: bold;
+	font-size: 3.3em;
+	margin-right: 0.5em;
+	text-shadow: 1.5px 1.5px #666666;
+}
+
+#sub-text {
+	display: none;
+	font-family: 'Nunito', sans-serif;
+	width:100%;
+	font-weight: normal;
+	font-size: 1.2em;
+	margin-right: 0.5em;
+}
