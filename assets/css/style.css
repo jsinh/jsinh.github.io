@@ -24,7 +24,7 @@ a {
 	ID Based Styles
 *****************************/
 #wrapper {
-	width: 800px;
+	width: 536px;
     height: 400px;
 
     position: absolute;
@@ -51,6 +51,7 @@ a {
 	display: none;
 	width:100%;
 	margin-top: 30px;
+	font-family: 'Quicksand', sans-serif;
 }
 
 ul {
@@ -82,6 +83,51 @@ li {
 	font-size: 1.2em;
 	margin-right: 0.5em;
 }
+
+/* Adding responsiveness for device viewing */
+@media screen and (max-width: 536px) {
+
+	#wrapper {
+		min-width: 320px;
+		width: 100%;
+	}
+
+	#top {
+    	width:100%;
+    	text-align: center;
+	}
+
+	#name {
+		font-size: 3em;
+	}
+
+	#sub-text {
+		font-size: 0.9em;
+		margin-bottom: 20px;
+	}
+
+	#social-fa {
+		text-align: center;
+		width:61%;
+		margin:0 auto;
+		line-height: 3em;
+	}
+
+	#menu {
+		width:60%;
+		margin: 0 auto;
+		font-size: 0.8em;
+	}
+}
+
+@media screen and (max-width: 388px) {
+
+	#social-fa {
+		width:53%;
+	}
+	
+}
+
 
 /*
 Ref: Font families
