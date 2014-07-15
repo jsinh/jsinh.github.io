@@ -13,11 +13,9 @@
 
         $('#name').show().addClass('animated bounceInLeft');
 
-        $('#sub-text').show().addClass('animated fadeInUp');
+        $('#sub-text').show().addClass('animated fadeIn');
 
         $('#social-fa').show().addClass('animated bounceInRight');
-
-        $('#menu').show().addClass('animated fadeIn');
         
         $(document).prop('title', 'Jaspalsinh Chauhan | Jsinh');
     });

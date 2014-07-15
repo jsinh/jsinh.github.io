@@ -16,8 +16,21 @@ body {
 
 a {
 	color: #555555;
-	margin: 4px;
 	text-decoration: none;
+}
+
+li a {
+	margin: 4px;
+}
+
+li a:hover {
+	color:#D8272F;
+	margin-right: 10px;
+	-o-transition:margin-right 0.3s ease-in;
+	-ms-transition:margin-right 0.3s ease-in;
+	-moz-transition:margin-right 0.3s ease-in;
+	-webkit-transition:margin-right 0.3s ease-in;
+	transition:margin-right 0.3s ease-in;
 }
 
 /*****************************
@@ -25,8 +38,8 @@ a {
 *****************************/
 #wrapper {
 	width: 536px;
-    height: 400px;
-
+	min-width: 320px;
+    height: 650px;
     position: absolute;
     top:0;
     bottom: 0;
@@ -41,37 +54,13 @@ a {
     text-align: right;
 }
 
-#social-fa {
-	display: none;
-	width:100%;
-	margin-top: 20px;
-}
-
-#menu {
-	display: none;
-	width:100%;
-	margin-top: 30px;
-	font-family: 'Quicksand', sans-serif;
-}
-
-ul {
-	list-style:  none;
-}
-
-li {
-	display: block;
-	margin-top: 20px;
-	margin-bottom: 20px;
-	font-size: 2.5em;
-}
-
 #name {
 	display: none;
 	font-family: 'Merienda', cursive;
 	width: 100%;
 	font-weight: bold;
 	font-size: 3.3em;
-	margin-right: 0.5em;
+	margin-right: 16%;
 	text-shadow: 1.5px 1.5px #666666;
 }
 
@@ -81,53 +70,86 @@ li {
 	width:100%;
 	font-weight: normal;
 	font-size: 1.2em;
-	margin-right: 0.5em;
+	margin-right: 16%;
 }
 
-/* Adding responsiveness for device viewing */
+#social-fa {
+	display: none;
+	text-align: right;
+	width:100%;
+	margin-top: 20px;
+}
+
+ul {
+	list-style:  none;
+	text-align: right;
+	margin-right: 2%;
+}
+
+li {
+	display: block;
+	font-size: 1.2em;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#sticky {
+	z-index: 200;
+    position: absolute;
+    right:0;
+    left:0;
+    bottom: 0;
+    margin: auto;
+    width: 387px;
+    margin-bottom: 0.8%;
+    line-height: 10px;
+}
+
+/* Media Query - for device width smaller than 536px */
 @media screen and (max-width: 536px) {
 
 	#wrapper {
-		min-width: 320px;
 		width: 100%;
 	}
 
 	#top {
-    	width:100%;
     	text-align: center;
 	}
 
 	#name {
-		font-size: 3em;
+		margin: 0 auto;
+		font-size: 2.2em;
 	}
 
 	#sub-text {
-		font-size: 0.9em;
-		margin-bottom: 20px;
-	}
-
-	#social-fa {
-		text-align: center;
-		width:61%;
-		margin:0 auto;
-		line-height: 3em;
-	}
-
-	#menu {
-		width:60%;
 		margin: 0 auto;
-		font-size: 0.8em;
+		font-size: 1em;
+	}
+
+	ul {
+		margin-right: 16%;
+	}
+
+	li {
+		font-size: 1.1em;
 	}
 }
 
+/* Media Query - for device width smaller than 388px */
 @media screen and (max-width: 388px) {
 
-	#social-fa {
-		width:53%;
+	#name {
+		font-size: 1.8em;
 	}
-	
-}
 
+	#sub-text {
+		font-size: 0.8em;
+	}
+
+	li {
+		font-size: .9em;
+	}
+}
 
 /*
 Ref: Font families
